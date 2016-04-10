@@ -63,14 +63,14 @@
     <Compile Include="GenerativePatterns\Singleton\SingletonTest.cs" />
     <Compile Include="OtherPatterns\Specification\AndSpecification.cs" />
     <Compile Include="OtherPatterns\Specification\ExpressionCombiner.cs" />
+    <Compile Include="OtherPatterns\Specification\ExpressionSpecification.cs" />
     <Compile Include="OtherPatterns\Specification\ISpecification.cs" />
     <Compile Include="OtherPatterns\Specification\NotSpecification.cs" />
     <Compile Include="OtherPatterns\Specification\OrSpecification.cs" />
     <Compile Include="OtherPatterns\Specification\ParameterReplacer.cs" />
     <Compile Include="OtherPatterns\Specification\Specification.cs" />
     <Compile Include="OtherPatterns\Specification\Test\Person.cs" />
-    <Compile Include="OtherPatterns\Specification\Test\PersonAgeSpecification.cs" />
-    <Compile Include="OtherPatterns\Specification\Test\PersonNameSpecification.cs" />
+    <Compile Include="OtherPatterns\Specification\Test\PersonSpecification.cs" />
     <Compile Include="OtherPatterns\Specification\Test\SpecificationTest.cs" />
     <Compile Include="PatternDecorator.cs" />
     <Compile Include="Program.cs" />

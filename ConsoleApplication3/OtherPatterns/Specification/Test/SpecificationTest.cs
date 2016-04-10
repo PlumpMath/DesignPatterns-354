@@ -37,12 +37,9 @@ namespace DesignPatterns.OtherPatterns.Specification.Test
         {
             var list = GetData();
 
-            var nameSpec = new PersonNameSpecification("Name_10");
-            var ageSpec = new PersonAgeSpecification(0);
+            var spec = PersonSpecification.GetByName("Name_10").Or(PersonSpecification.GetByAge(0));
 
-            var s = nameSpec.And(ageSpec);
-
-            return list.Where(s.IsSatisfiedBy).ToList();
+            return list.Where(spec.IsSatisfiedBy).ToList();
         }
     }
 }
