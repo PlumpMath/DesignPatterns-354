@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6DD6964F-C9F7-4EB0-90F0-91A1C4043B3C}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DesignPatterns</RootNamespace>
+    <AssemblyName>DesignPatterns</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GenerativePatterns\AbstractFactory\AbstractFactoryTest.cs" />
+    <Compile Include="GenerativePatterns\AbstractFactory\Client\Hero.cs" />
+    <Compile Include="GenerativePatterns\AbstractFactory\Factory\ElfFactory.cs" />
+    <Compile Include="GenerativePatterns\AbstractFactory\Factory\HeroFactory.cs" />
+    <Compile Include="GenerativePatterns\AbstractFactory\Factory\VoinFactory.cs" />
+    <Compile Include="GenerativePatterns\AbstractFactory\Product\Arbalet.cs" />
+    <Compile Include="GenerativePatterns\AbstractFactory\Product\FlyMovement.cs" />
+    <Compile Include="GenerativePatterns\AbstractFactory\Product\Movement.cs" />
+    <Compile Include="GenerativePatterns\AbstractFactory\Product\RunMovement.cs" />
+    <Compile Include="GenerativePatterns\AbstractFactory\Product\Sword.cs" />
+    <Compile Include="GenerativePatterns\AbstractFactory\Product\Weapon.cs" />
+    <Compile Include="GenerativePatterns\FactoryMethod\Creator\Developer.cs" />
+    <Compile Include="GenerativePatterns\FactoryMethod\Creator\PanelDeveloper.cs" />
+    <Compile Include="GenerativePatterns\FactoryMethod\Creator\WoodDeveloper.cs" />
+    <Compile Include="GenerativePatterns\FactoryMethod\FactorMethodTest.cs" />
+    <Compile Include="GenerativePatterns\FactoryMethod\Product\House.cs" />
+    <Compile Include="GenerativePatterns\FactoryMethod\Product\PanelHouse.cs" />
+    <Compile Include="GenerativePatterns\FactoryMethod\Product\WoodHouse.cs" />
+    <Compile Include="GenerativePatterns\Singleton\OperatingSystem.cs" />
+    <Compile Include="GenerativePatterns\Singleton\SingletonTest.cs" />
+    <Compile Include="OtherPatterns\Specification\AndSpecification.cs" />
+    <Compile Include="OtherPatterns\Specification\ExpressionCombiner.cs" />
+    <Compile Include="OtherPatterns\Specification\ISpecification.cs" />
+    <Compile Include="OtherPatterns\Specification\NotSpecification.cs" />
+    <Compile Include="OtherPatterns\Specification\OrSpecification.cs" />
+    <Compile Include="OtherPatterns\Specification\ParameterReplacer.cs" />
+    <Compile Include="OtherPatterns\Specification\Specification.cs" />
+    <Compile Include="OtherPatterns\Specification\Test\Person.cs" />
+    <Compile Include="OtherPatterns\Specification\Test\PersonAgeSpecification.cs" />
+    <Compile Include="OtherPatterns\Specification\Test\PersonNameSpecification.cs" />
+    <Compile Include="OtherPatterns\Specification\Test\SpecificationTest.cs" />
+    <Compile Include="PatternDecorator.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PatternTest.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="GenerativePatterns\AbstractFactory\Description.txt" />
+    <Content Include="GenerativePatterns\FactoryMethod\Description.txt" />
+    <Content Include="GenerativePatterns\Singleton\Description.txt" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
