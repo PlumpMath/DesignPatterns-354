@@ -88,6 +88,7 @@
   <ItemGroup>
     <Content Include="CreationalPatterns\AbstractFactory\Description.txt" />
     <Content Include="CreationalPatterns\FactoryMethod\Description.txt" />
+    <Content Include="CreationalPatterns\Prototype\Description.txt" />
     <Content Include="CreationalPatterns\Singleton\Description.txt" />
     <Content Include="OtherPatterns\Specification\Description.txt" />
   </ItemGroup>
