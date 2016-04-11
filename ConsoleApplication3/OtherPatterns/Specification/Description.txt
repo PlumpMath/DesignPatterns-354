@@ -1,0 +1,21 @@
+﻿Specification pattern is a pattern that allows us to encapsulate some piece of 
+domain knowledge into a single unit – specification – and reuse it in different parts of the code base.
+
+There are 3 main use cases for the Specification pattern:
+
+	- Looking up data in the database. That is finding records that match the specification we have in hand.
+    
+	- Validating objects in the memory. In other words, checking that an object we retrieved or created fits the spec.
+    
+	- Creating a new instance that matches the criteria. This is useful in scenarios where you don’t care 
+	  about the actual content of the instances, but still need it to have certain attributes.
+
+
+Pros:
+
+1) follow DRY principle
+2) easy to modify and reuse everywhere
+
+Cons:
+
+NO

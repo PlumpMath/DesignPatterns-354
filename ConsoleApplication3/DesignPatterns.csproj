@@ -41,26 +41,31 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GenerativePatterns\AbstractFactory\AbstractFactoryTest.cs" />
-    <Compile Include="GenerativePatterns\AbstractFactory\Client\Hero.cs" />
-    <Compile Include="GenerativePatterns\AbstractFactory\Factory\ElfFactory.cs" />
-    <Compile Include="GenerativePatterns\AbstractFactory\Factory\HeroFactory.cs" />
-    <Compile Include="GenerativePatterns\AbstractFactory\Factory\VoinFactory.cs" />
-    <Compile Include="GenerativePatterns\AbstractFactory\Product\Arbalet.cs" />
-    <Compile Include="GenerativePatterns\AbstractFactory\Product\FlyMovement.cs" />
-    <Compile Include="GenerativePatterns\AbstractFactory\Product\Movement.cs" />
-    <Compile Include="GenerativePatterns\AbstractFactory\Product\RunMovement.cs" />
-    <Compile Include="GenerativePatterns\AbstractFactory\Product\Sword.cs" />
-    <Compile Include="GenerativePatterns\AbstractFactory\Product\Weapon.cs" />
-    <Compile Include="GenerativePatterns\FactoryMethod\Creator\Developer.cs" />
-    <Compile Include="GenerativePatterns\FactoryMethod\Creator\PanelDeveloper.cs" />
-    <Compile Include="GenerativePatterns\FactoryMethod\Creator\WoodDeveloper.cs" />
-    <Compile Include="GenerativePatterns\FactoryMethod\FactorMethodTest.cs" />
-    <Compile Include="GenerativePatterns\FactoryMethod\Product\House.cs" />
-    <Compile Include="GenerativePatterns\FactoryMethod\Product\PanelHouse.cs" />
-    <Compile Include="GenerativePatterns\FactoryMethod\Product\WoodHouse.cs" />
-    <Compile Include="GenerativePatterns\Singleton\OperatingSystem.cs" />
-    <Compile Include="GenerativePatterns\Singleton\SingletonTest.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\AbstractFactoryTest.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\Client\Hero.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\Factory\ElfFactory.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\Factory\HeroFactory.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\Factory\VoinFactory.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\Product\Arbalet.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\Product\FlyMovement.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\Product\Movement.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\Product\RunMovement.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\Product\Sword.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\Product\Weapon.cs" />
+    <Compile Include="CreationalPatterns\FactoryMethod\Creator\Developer.cs" />
+    <Compile Include="CreationalPatterns\FactoryMethod\Creator\PanelDeveloper.cs" />
+    <Compile Include="CreationalPatterns\FactoryMethod\Creator\WoodDeveloper.cs" />
+    <Compile Include="CreationalPatterns\FactoryMethod\FactorMethodTest.cs" />
+    <Compile Include="CreationalPatterns\FactoryMethod\Product\House.cs" />
+    <Compile Include="CreationalPatterns\FactoryMethod\Product\PanelHouse.cs" />
+    <Compile Include="CreationalPatterns\FactoryMethod\Product\WoodHouse.cs" />
+    <Compile Include="CreationalPatterns\Prototype\Circle.cs" />
+    <Compile Include="CreationalPatterns\Prototype\Point.cs" />
+    <Compile Include="CreationalPatterns\Prototype\PrototypeTest.cs" />
+    <Compile Include="CreationalPatterns\Prototype\Rectangle.cs" />
+    <Compile Include="CreationalPatterns\Prototype\Shape.cs" />
+    <Compile Include="CreationalPatterns\Singleton\OperatingSystem.cs" />
+    <Compile Include="CreationalPatterns\Singleton\SingletonTest.cs" />
     <Compile Include="OtherPatterns\Specification\AndSpecification.cs" />
     <Compile Include="OtherPatterns\Specification\ExpressionCombiner.cs" />
     <Compile Include="OtherPatterns\Specification\ExpressionSpecification.cs" />
@@ -81,9 +86,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="GenerativePatterns\AbstractFactory\Description.txt" />
-    <Content Include="GenerativePatterns\FactoryMethod\Description.txt" />
-    <Content Include="GenerativePatterns\Singleton\Description.txt" />
+    <Content Include="CreationalPatterns\AbstractFactory\Description.txt" />
+    <Content Include="CreationalPatterns\FactoryMethod\Description.txt" />
+    <Content Include="CreationalPatterns\Singleton\Description.txt" />
+    <Content Include="OtherPatterns\Specification\Description.txt" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
