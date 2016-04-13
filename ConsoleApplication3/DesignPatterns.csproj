@@ -52,6 +52,15 @@
     <Compile Include="CreationalPatterns\AbstractFactory\Product\RunMovement.cs" />
     <Compile Include="CreationalPatterns\AbstractFactory\Product\Sword.cs" />
     <Compile Include="CreationalPatterns\AbstractFactory\Product\Weapon.cs" />
+    <Compile Include="CreationalPatterns\Builder\Additives.cs" />
+    <Compile Include="CreationalPatterns\Builder\BuilderTest.cs" />
+    <Compile Include="CreationalPatterns\Builder\Builder\BreadBuilder.cs" />
+    <Compile Include="CreationalPatterns\Builder\Builder\HomeBreadBuilder.cs" />
+    <Compile Include="CreationalPatterns\Builder\Builder\ManufactoryBreadBuilder.cs" />
+    <Compile Include="CreationalPatterns\Builder\Director\Baker.cs" />
+    <Compile Include="CreationalPatterns\Builder\Flour.cs" />
+    <Compile Include="CreationalPatterns\Builder\Product\Bread.cs" />
+    <Compile Include="CreationalPatterns\Builder\Salt.cs" />
     <Compile Include="CreationalPatterns\FactoryMethod\Creator\Developer.cs" />
     <Compile Include="CreationalPatterns\FactoryMethod\Creator\PanelDeveloper.cs" />
     <Compile Include="CreationalPatterns\FactoryMethod\Creator\WoodDeveloper.cs" />
@@ -87,6 +96,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CreationalPatterns\AbstractFactory\Description.txt" />
+    <Content Include="CreationalPatterns\Builder\Description.txt" />
     <Content Include="CreationalPatterns\FactoryMethod\Description.txt" />
     <Content Include="CreationalPatterns\Prototype\Description.txt" />
     <Content Include="CreationalPatterns\Singleton\Description.txt" />
