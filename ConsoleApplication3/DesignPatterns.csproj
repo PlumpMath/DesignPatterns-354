@@ -41,6 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BehaviorPatterns\Strategy\Strategy\Car.cs" />
+    <Compile Include="BehaviorPatterns\Strategy\Strategy\ElecticMovable.cs" />
+    <Compile Include="BehaviorPatterns\Strategy\Strategy\IMovable.cs" />
+    <Compile Include="BehaviorPatterns\Strategy\Strategy\PetrolMovable.cs" />
+    <Compile Include="BehaviorPatterns\Strategy\Strategy\StrategyTest.cs" />
     <Compile Include="CreationalPatterns\AbstractFactory\AbstractFactoryTest.cs" />
     <Compile Include="CreationalPatterns\AbstractFactory\Client\Hero.cs" />
     <Compile Include="CreationalPatterns\AbstractFactory\Factory\ElfFactory.cs" />
@@ -95,6 +100,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="BehaviorPatterns\Strategy\Description.txt" />
     <Content Include="CreationalPatterns\AbstractFactory\Description.txt" />
     <Content Include="CreationalPatterns\Builder\Description.txt" />
     <Content Include="CreationalPatterns\FactoryMethod\Description.txt" />

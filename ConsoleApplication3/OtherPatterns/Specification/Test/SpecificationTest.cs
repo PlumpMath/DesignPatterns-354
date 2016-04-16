@@ -37,9 +37,29 @@ namespace DesignPatterns.OtherPatterns.Specification.Test
         {
             var list = GetData();
 
-            var spec = PersonSpecification.GetByName("Name_10").Or(PersonSpecification.GetByAge(0));
+            //var specifications = new List<ISpecification<Person>>();
 
-            return list.Where(spec.IsSatisfiedBy).ToList();
+            //if (contition1)
+            //{
+                //specifications.Add(PersonSpecification.GetByName("Name"));
+            //}
+            //if (contition1)
+            //{
+                //specifications.Add(PersonSpecification.GetByAge(25));
+            //}
+
+            //var specification = specifications.Aggregate((curr, next) => curr.And(next));
+
+            var specification = PersonSpecification.GetByName("Name_10").And(PersonSpecification.GetByAge(0));
+
+            //var person = GetByName(PersonSpecification.GetByName("Name"));
+
+            return list.Where(specification.IsSatisfiedBy).ToList();
         }
+
+        //private static IEnumerable<Person> GetByName(ISpecification<Person> spec)
+        //{
+        //    return _repo.GetAll(spec.Predicate);
+        //}
     }
 }

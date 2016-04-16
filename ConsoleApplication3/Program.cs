@@ -1,4 +1,5 @@
 ﻿using System;
+using DesignPatterns.BehaviorPatterns.Strategy.Strategy;
 using DesignPatterns.CreationalPatterns.AbstractFactory;
 using DesignPatterns.CreationalPatterns.Builder;
 using DesignPatterns.CreationalPatterns.FactoryMethod;
@@ -18,6 +19,7 @@ namespace DesignPatterns
             PatternDecorator.RunTest(new SpecificationTest());
             PatternDecorator.RunTest(new PrototypeTest());
             PatternDecorator.RunTest(new BuilderTest());
+            PatternDecorator.RunTest(new StrategyTest());
 
             Console.Read();
         }
