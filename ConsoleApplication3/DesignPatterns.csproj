@@ -41,11 +41,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BehaviorPatterns\Strategy\Strategy\Car.cs" />
+    <Compile Include="BehaviorPatterns\Observer\Observable\IObservable.cs" />
+    <Compile Include="BehaviorPatterns\Observer\Observable\Stock.cs" />
+    <Compile Include="BehaviorPatterns\Observer\ObserverTest.cs" />
+    <Compile Include="BehaviorPatterns\Observer\Observer\Bank.cs" />
+    <Compile Include="BehaviorPatterns\Observer\Observer\Broker.cs" />
+    <Compile Include="BehaviorPatterns\Observer\Observer\IObserver.cs" />
+    <Compile Include="BehaviorPatterns\Strategy\Car.cs" />
+    <Compile Include="BehaviorPatterns\Strategy\StrategyTest.cs" />
     <Compile Include="BehaviorPatterns\Strategy\Strategy\ElecticMovable.cs" />
     <Compile Include="BehaviorPatterns\Strategy\Strategy\IMovable.cs" />
     <Compile Include="BehaviorPatterns\Strategy\Strategy\PetrolMovable.cs" />
-    <Compile Include="BehaviorPatterns\Strategy\Strategy\StrategyTest.cs" />
     <Compile Include="CreationalPatterns\AbstractFactory\AbstractFactoryTest.cs" />
     <Compile Include="CreationalPatterns\AbstractFactory\Client\Hero.cs" />
     <Compile Include="CreationalPatterns\AbstractFactory\Factory\ElfFactory.cs" />

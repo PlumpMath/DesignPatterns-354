@@ -1,4 +1,6 @@
-﻿namespace DesignPatterns.BehaviorPatterns.Strategy.Strategy
+﻿using DesignPatterns.BehaviorPatterns.Strategy.Strategy;
+
+namespace DesignPatterns.BehaviorPatterns.Strategy
 {
     public class StrategyTest : PatternTest
     {
