@@ -4,3 +4,9 @@ E:\Projects\DesignPatterns\ConsoleApplication3\bin\Debug\DesignPatterns.pdb
 E:\Projects\DesignPatterns\ConsoleApplication3\obj\Debug\DesignPatterns.csprojResolveAssemblyReference.cache
 E:\Projects\DesignPatterns\ConsoleApplication3\obj\Debug\DesignPatterns.exe
 E:\Projects\DesignPatterns\ConsoleApplication3\obj\Debug\DesignPatterns.pdb
+d:\StudyProjects\DesignPatterns\DesignPatterns\ConsoleApplication3\bin\Debug\DesignPatterns.exe.config
+d:\StudyProjects\DesignPatterns\DesignPatterns\ConsoleApplication3\obj\Debug\DesignPatterns.exe
+d:\StudyProjects\DesignPatterns\DesignPatterns\ConsoleApplication3\obj\Debug\DesignPatterns.pdb
+d:\StudyProjects\DesignPatterns\DesignPatterns\ConsoleApplication3\bin\Debug\DesignPatterns.exe
+d:\StudyProjects\DesignPatterns\DesignPatterns\ConsoleApplication3\bin\Debug\DesignPatterns.pdb
+d:\StudyProjects\DesignPatterns\DesignPatterns\ConsoleApplication3\obj\Debug\DesignPatterns.csprojResolveAssemblyReference.cache

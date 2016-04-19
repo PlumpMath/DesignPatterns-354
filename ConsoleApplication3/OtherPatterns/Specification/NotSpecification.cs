@@ -13,7 +13,7 @@ namespace DesignPatterns.OtherPatterns.Specification
 
         private static Expression<Func<T, bool>> CreateNotPredicate(ISpecification<T> specification)
         {
-            return Expression.Lambda<Func<T, bool>>(specification.Predicate, specification.Predicate.Parameters.Single());
+            return Expression.Lambda<Func<T, bool>>(Expression.Not(specification.Predicate), specification.Predicate.Parameters.Single());
         }
     }
 }
