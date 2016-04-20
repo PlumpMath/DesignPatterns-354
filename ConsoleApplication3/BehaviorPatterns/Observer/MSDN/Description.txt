@@ -1,0 +1,34 @@
+﻿The observer design pattern enables a subscriber to register with and receive notifications from a provider. 
+It is suitable for any scenario that requires push-based notification. The pattern defines a provider (also known as a subject or an observable) and zero, one, or more observers. 
+Observers register with the provider, and whenever a predefined condition, event, or state change occurs, the provider automatically notifies all observers by calling one of their methods. 
+In this method call, the provider can also provide current state information to observers. In the .NET Framework, the observer design pattern is applied by 
+implementing the generic System.IObservable<T> and System.IObserver<T> interfaces. The generic type parameter represents the type that provides notification information.
+Applying the Pattern
+
+The observer design pattern is suitable for distributed push-based notifications, because it supports a clean separation between two different components or application layers, 
+such as a data source (business logic) layer and a user interface (display) layer. 
+The pattern can be implemented whenever a provider uses callbacks to supply its clients with current information.
+
+Implementing the pattern requires that you provide the following:
+
+    A provider or subject, which is the object that sends notifications to observers. A provider is a class or structure that implements the IObservable<T> interface. 
+	The provider must implement a single method, IObservable<T>.Subscribe, which is called by observers that wish to receive notifications from the provider.
+
+    An observer, which is an object that receives notifications from a provider. An observer is a class or structure that implements the IObserver<T> interface. 
+	The observer must implement three methods, all of which are called by the provider:
+
+        IObserver<T>.OnNext, which supplies the observer with new or current information.
+
+        IObserver<T>.OnError, which informs the observer that an error has occurred.
+
+        IObserver<T>.OnCompleted, which indicates that the provider has finished sending notifications.
+
+    A mechanism that allows the provider to keep track of observers. Typically, the provider uses a container object, such as a System.Collections.Generic.List<T> object, 
+	to hold references to the IObserver<T> implementations that have subscribed to notifications. Using a storage container for this purpose enables the provider to 
+	handle zero to an unlimited number of observers. The order in which observers receive notifications is not defined; the provider is free to use any method to determine the order.
+
+    An IDisposable implementation that enables the provider to remove observers when notification is complete. Observers receive a reference to the IDisposable implementation 
+	from the Subscribe method, so they can also call the IDisposable.Dispose method to unsubscribe before the provider has finished sending notifications.
+
+    An object that contains the data that the provider sends to its observers. The type of this object corresponds to the generic type parameter of 
+	the IObservable<T> and IObserver<T> interfaces. Although this object can be the same as the IObservable<T> implementation, most commonly it is a separate type.

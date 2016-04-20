@@ -41,6 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BehaviorPatterns\Observer\MSDN\Observable\SomeObservable.cs" />
+    <Compile Include="BehaviorPatterns\Observer\MSDN\Observable\Unsubscriber.cs" />
+    <Compile Include="BehaviorPatterns\Observer\MSDN\ObservertMsdnTest.cs" />
+    <Compile Include="BehaviorPatterns\Observer\MSDN\Observer\FirstObserver.cs" />
+    <Compile Include="BehaviorPatterns\Observer\MSDN\Observer\SecondObserver.cs" />
+    <Compile Include="BehaviorPatterns\Observer\MSDN\SomeBusinessData.cs" />
     <Compile Include="BehaviorPatterns\Observer\Observable\IObservable.cs" />
     <Compile Include="BehaviorPatterns\Observer\Observable\Stock.cs" />
     <Compile Include="BehaviorPatterns\Observer\ObserverTest.cs" />
@@ -106,6 +112,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="BehaviorPatterns\Observer\MSDN\Description.txt" />
     <Content Include="BehaviorPatterns\Strategy\Description.txt" />
     <Content Include="CreationalPatterns\AbstractFactory\Description.txt" />
     <Content Include="CreationalPatterns\Builder\Description.txt" />
