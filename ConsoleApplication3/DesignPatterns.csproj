@@ -41,6 +41,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BehaviorPatterns\Command\Command\CommandTest.cs" />
+    <Compile Include="BehaviorPatterns\Command\Command\ConcreteCommand\TvCommand.cs" />
+    <Compile Include="BehaviorPatterns\Command\Command\Invoker\Pult.cs" />
+    <Compile Include="BehaviorPatterns\Command\Command\Receiver\TvSet.cs" />
+    <Compile Include="BehaviorPatterns\Command\Interface\ICommand.cs" />
+    <Compile Include="BehaviorPatterns\Command\MacroCommand\ConcreteCommand\ManagerCommand.cs" />
+    <Compile Include="BehaviorPatterns\Command\MacroCommand\ConcreteCommand\ProgrammerCommand.cs" />
+    <Compile Include="BehaviorPatterns\Command\MacroCommand\ConcreteCommand\TesterCommand.cs" />
+    <Compile Include="BehaviorPatterns\Command\MacroCommand\Invoker\Manager.cs" />
+    <Compile Include="BehaviorPatterns\Command\MacroCommand\MacroCommandTest.cs" />
+    <Compile Include="BehaviorPatterns\Command\MacroCommand\Receiver\Programmer.cs" />
+    <Compile Include="BehaviorPatterns\Command\MacroCommand\Receiver\Tester.cs" />
     <Compile Include="BehaviorPatterns\Observer\MSDN\Observable\SomeObservable.cs" />
     <Compile Include="BehaviorPatterns\Observer\MSDN\Observable\Unsubscriber.cs" />
     <Compile Include="BehaviorPatterns\Observer\MSDN\ObservertMsdnTest.cs" />
@@ -112,6 +124,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="BehaviorPatterns\Command\Description.txt" />
     <Content Include="BehaviorPatterns\Observer\MSDN\Description.txt" />
     <Content Include="BehaviorPatterns\Strategy\Description.txt" />
     <Content Include="CreationalPatterns\AbstractFactory\Description.txt" />
