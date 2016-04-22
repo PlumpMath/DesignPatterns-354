@@ -70,6 +70,10 @@
     <Compile Include="BehaviorPatterns\Strategy\Strategy\ElecticMovable.cs" />
     <Compile Include="BehaviorPatterns\Strategy\Strategy\IMovable.cs" />
     <Compile Include="BehaviorPatterns\Strategy\Strategy\PetrolMovable.cs" />
+    <Compile Include="BehaviorPatterns\TemplateMethod\School.cs" />
+    <Compile Include="BehaviorPatterns\TemplateMethod\Study.cs" />
+    <Compile Include="BehaviorPatterns\TemplateMethod\TemplateMethodTest.cs" />
+    <Compile Include="BehaviorPatterns\TemplateMethod\University.cs" />
     <Compile Include="CreationalPatterns\AbstractFactory\AbstractFactoryTest.cs" />
     <Compile Include="CreationalPatterns\AbstractFactory\Client\Hero.cs" />
     <Compile Include="CreationalPatterns\AbstractFactory\Factory\ElfFactory.cs" />
@@ -127,6 +131,7 @@
     <Content Include="BehaviorPatterns\Command\Description.txt" />
     <Content Include="BehaviorPatterns\Observer\MSDN\Description.txt" />
     <Content Include="BehaviorPatterns\Strategy\Description.txt" />
+    <Content Include="BehaviorPatterns\TemplateMethod\Description.txt" />
     <Content Include="CreationalPatterns\AbstractFactory\Description.txt" />
     <Content Include="CreationalPatterns\Builder\Description.txt" />
     <Content Include="CreationalPatterns\FactoryMethod\Description.txt" />

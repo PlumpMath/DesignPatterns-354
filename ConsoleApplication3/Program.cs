@@ -4,6 +4,7 @@ using DesignPatterns.BehaviorPatterns.Command.MacroCommand;
 using DesignPatterns.BehaviorPatterns.Observer;
 using DesignPatterns.BehaviorPatterns.Observer.MSDN;
 using DesignPatterns.BehaviorPatterns.Strategy;
+using DesignPatterns.BehaviorPatterns.TemplateMethod;
 using DesignPatterns.CreationalPatterns.AbstractFactory;
 using DesignPatterns.CreationalPatterns.Builder;
 using DesignPatterns.CreationalPatterns.FactoryMethod;
@@ -28,6 +29,7 @@ namespace DesignPatterns
             PatternDecorator.RunTest(new ObservertMsdnTest());
             PatternDecorator.RunTest(new CommandTest());
             PatternDecorator.RunTest(new MacroCommandTest());
+            PatternDecorator.RunTest(new TemplateMethodTest());
 
             Console.Read();
         }
