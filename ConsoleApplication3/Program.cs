@@ -1,6 +1,7 @@
 ﻿using System;
 using DesignPatterns.BehaviorPatterns.Command.Command;
 using DesignPatterns.BehaviorPatterns.Command.MacroCommand;
+using DesignPatterns.BehaviorPatterns.Iterator;
 using DesignPatterns.BehaviorPatterns.Observer;
 using DesignPatterns.BehaviorPatterns.Observer.MSDN;
 using DesignPatterns.BehaviorPatterns.Strategy;
@@ -30,6 +31,7 @@ namespace DesignPatterns
             PatternDecorator.RunTest(new CommandTest());
             PatternDecorator.RunTest(new MacroCommandTest());
             PatternDecorator.RunTest(new TemplateMethodTest());
+            PatternDecorator.RunTest(new IteratorTest());
 
             Console.Read();
         }
