@@ -144,6 +144,7 @@
     <Content Include="CreationalPatterns\FactoryMethod\Description.txt" />
     <Content Include="CreationalPatterns\Prototype\Description.txt" />
     <Content Include="CreationalPatterns\Singleton\Description.txt" />
+    <Content Include="Readme.txt" />
     <Content Include="OtherPatterns\Specification\Description.txt" />
   </ItemGroup>
   <ItemGroup />

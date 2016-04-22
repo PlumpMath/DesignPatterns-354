@@ -1,0 +1,1 @@
+﻿All code samples and texts are from http://metanit.com/sharp/patterns
