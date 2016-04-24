@@ -28,11 +28,11 @@ namespace DesignPatterns.BehaviorPatterns.Iterator.Aggregator
 
         public IEnumerator GetEnumerator()
         {
-            for (int i = 0; i < _books.Length; i++)
-            {
-                yield return _books[i];
-            }
-            //return new BookIterator(this);
+            //for (int i = 0; i < _books.Length; i++)
+            //{
+            //    yield return _books[i];
+            //}
+            return new BookIterator(this);
         }
 
         public Book this[int index]
