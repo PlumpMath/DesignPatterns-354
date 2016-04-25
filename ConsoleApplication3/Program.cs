@@ -1,4 +1,5 @@
 ﻿using System;
+using DesignPatterns.BehaviorPatterns.ChainOfResponsibility;
 using DesignPatterns.BehaviorPatterns.Command.Command;
 using DesignPatterns.BehaviorPatterns.Command.MacroCommand;
 using DesignPatterns.BehaviorPatterns.Iterator;
@@ -34,6 +35,7 @@ namespace DesignPatterns
             PatternDecorator.RunTest(new TemplateMethodTest());
             PatternDecorator.RunTest(new IteratorTest());
             PatternDecorator.RunTest(new StateTest());
+            PatternDecorator.RunTest(new ChainOfResponsibilityTest());
 
             Console.Read();
         }

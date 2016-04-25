@@ -41,6 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BehaviorPatterns\ChainOfResponsibility\ChainOfResponsibilityTest.cs" />
+    <Compile Include="BehaviorPatterns\ChainOfResponsibility\Chain\BankPaymentHandler.cs" />
+    <Compile Include="BehaviorPatterns\ChainOfResponsibility\Chain\PaymentHandler.cs" />
+    <Compile Include="BehaviorPatterns\ChainOfResponsibility\Chain\PayPalPaymentHandler.cs" />
+    <Compile Include="BehaviorPatterns\ChainOfResponsibility\Chain\WesternUnionPaymentHandler.cs" />
+    <Compile Include="BehaviorPatterns\ChainOfResponsibility\Receiver\Receiver.cs" />
     <Compile Include="BehaviorPatterns\Command\Command\CommandTest.cs" />
     <Compile Include="BehaviorPatterns\Command\Command\ConcreteCommand\TvCommand.cs" />
     <Compile Include="BehaviorPatterns\Command\Command\Invoker\Pult.cs" />
@@ -140,6 +146,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="BehaviorPatterns\ChainOfResponsibility\Descriptioin.txt" />
     <Content Include="BehaviorPatterns\Command\Description.txt" />
     <Content Include="BehaviorPatterns\Iterator\Description.txt" />
     <Content Include="BehaviorPatterns\Observer\MSDN\Description.txt" />
