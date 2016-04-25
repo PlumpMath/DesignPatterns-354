@@ -71,6 +71,12 @@
     <Compile Include="BehaviorPatterns\Observer\Observer\Bank.cs" />
     <Compile Include="BehaviorPatterns\Observer\Observer\Broker.cs" />
     <Compile Include="BehaviorPatterns\Observer\Observer\IObserver.cs" />
+    <Compile Include="BehaviorPatterns\State\StateTest.cs" />
+    <Compile Include="BehaviorPatterns\State\State\GasWaterState.cs" />
+    <Compile Include="BehaviorPatterns\State\State\LiquidWaterState.cs" />
+    <Compile Include="BehaviorPatterns\State\State\SolidWaterState.cs" />
+    <Compile Include="BehaviorPatterns\State\State\WaterState.cs" />
+    <Compile Include="BehaviorPatterns\State\Water.cs" />
     <Compile Include="BehaviorPatterns\Strategy\Car.cs" />
     <Compile Include="BehaviorPatterns\Strategy\StrategyTest.cs" />
     <Compile Include="BehaviorPatterns\Strategy\Strategy\ElecticMovable.cs" />
@@ -137,6 +143,7 @@
     <Content Include="BehaviorPatterns\Command\Description.txt" />
     <Content Include="BehaviorPatterns\Iterator\Description.txt" />
     <Content Include="BehaviorPatterns\Observer\MSDN\Description.txt" />
+    <Content Include="BehaviorPatterns\State\Description.txt" />
     <Content Include="BehaviorPatterns\Strategy\Description.txt" />
     <Content Include="BehaviorPatterns\TemplateMethod\Description.txt" />
     <Content Include="CreationalPatterns\AbstractFactory\Description.txt" />
