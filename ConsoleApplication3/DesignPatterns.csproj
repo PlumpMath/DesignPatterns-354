@@ -71,6 +71,13 @@
     <Compile Include="BehaviorPatterns\Iterator\IteratorTest.cs" />
     <Compile Include="BehaviorPatterns\Iterator\Iterator\BookIterator.cs" />
     <Compile Include="BehaviorPatterns\Iterator\Iterator\OneMoreBookIterator.cs" />
+    <Compile Include="BehaviorPatterns\Mediator\Collegue\Collegue.cs" />
+    <Compile Include="BehaviorPatterns\Mediator\Collegue\Customer.cs" />
+    <Compile Include="BehaviorPatterns\Mediator\Collegue\Programmer.cs" />
+    <Compile Include="BehaviorPatterns\Mediator\Collegue\Tester.cs" />
+    <Compile Include="BehaviorPatterns\Mediator\MediatorTest.cs" />
+    <Compile Include="BehaviorPatterns\Mediator\Mediator\AbstractMediator.cs" />
+    <Compile Include="BehaviorPatterns\Mediator\Mediator\Manager.cs" />
     <Compile Include="BehaviorPatterns\Observer\MSDN\Observable\SomeObservable.cs" />
     <Compile Include="BehaviorPatterns\Observer\MSDN\Observable\Unsubscriber.cs" />
     <Compile Include="BehaviorPatterns\Observer\MSDN\ObservertMsdnTest.cs" />
@@ -154,7 +161,9 @@
   <ItemGroup>
     <Content Include="BehaviorPatterns\ChainOfResponsibility\Descriptioin.txt" />
     <Content Include="BehaviorPatterns\Command\Description.txt" />
+    <Content Include="BehaviorPatterns\Interpretator\Description.txt" />
     <Content Include="BehaviorPatterns\Iterator\Description.txt" />
+    <Content Include="BehaviorPatterns\Mediator\Description.txt" />
     <Content Include="BehaviorPatterns\Observer\MSDN\Description.txt" />
     <Content Include="BehaviorPatterns\State\Description.txt" />
     <Content Include="BehaviorPatterns\Strategy\Description.txt" />

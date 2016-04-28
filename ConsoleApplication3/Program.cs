@@ -4,6 +4,7 @@ using DesignPatterns.BehaviorPatterns.Command.Command;
 using DesignPatterns.BehaviorPatterns.Command.MacroCommand;
 using DesignPatterns.BehaviorPatterns.Interpretator;
 using DesignPatterns.BehaviorPatterns.Iterator;
+using DesignPatterns.BehaviorPatterns.Mediator;
 using DesignPatterns.BehaviorPatterns.Observer;
 using DesignPatterns.BehaviorPatterns.Observer.MSDN;
 using DesignPatterns.BehaviorPatterns.State;
@@ -38,6 +39,7 @@ namespace DesignPatterns
             PatternDecorator.RunTest(new StateTest());
             PatternDecorator.RunTest(new ChainOfResponsibilityTest());
             PatternDecorator.RunTest(new InterpretatorTest());
+            PatternDecorator.RunTest(new MediatorTest());
 
             Console.Read();
         }
