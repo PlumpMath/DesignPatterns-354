@@ -59,6 +59,12 @@
     <Compile Include="BehaviorPatterns\Command\MacroCommand\MacroCommandTest.cs" />
     <Compile Include="BehaviorPatterns\Command\MacroCommand\Receiver\Programmer.cs" />
     <Compile Include="BehaviorPatterns\Command\MacroCommand\Receiver\Tester.cs" />
+    <Compile Include="BehaviorPatterns\Interpretator\AbstractExpression\IExpression.cs" />
+    <Compile Include="BehaviorPatterns\Interpretator\AbstractExpression\Nonterminal\AddExpression.cs" />
+    <Compile Include="BehaviorPatterns\Interpretator\AbstractExpression\Nonterminal\SubstractExpression.cs" />
+    <Compile Include="BehaviorPatterns\Interpretator\AbstractExpression\Terminal\NumberExpression.cs" />
+    <Compile Include="BehaviorPatterns\Interpretator\Context.cs" />
+    <Compile Include="BehaviorPatterns\Interpretator\InterpretatorTest.cs" />
     <Compile Include="BehaviorPatterns\Iterator\Aggregator\ILibraryEnumerable.cs" />
     <Compile Include="BehaviorPatterns\Iterator\Aggregator\Library.cs" />
     <Compile Include="BehaviorPatterns\Iterator\Book.cs" />

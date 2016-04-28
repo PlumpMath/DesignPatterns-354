@@ -2,6 +2,7 @@
 using DesignPatterns.BehaviorPatterns.ChainOfResponsibility;
 using DesignPatterns.BehaviorPatterns.Command.Command;
 using DesignPatterns.BehaviorPatterns.Command.MacroCommand;
+using DesignPatterns.BehaviorPatterns.Interpretator;
 using DesignPatterns.BehaviorPatterns.Iterator;
 using DesignPatterns.BehaviorPatterns.Observer;
 using DesignPatterns.BehaviorPatterns.Observer.MSDN;
@@ -36,6 +37,7 @@ namespace DesignPatterns
             PatternDecorator.RunTest(new IteratorTest());
             PatternDecorator.RunTest(new StateTest());
             PatternDecorator.RunTest(new ChainOfResponsibilityTest());
+            PatternDecorator.RunTest(new InterpretatorTest());
 
             Console.Read();
         }
