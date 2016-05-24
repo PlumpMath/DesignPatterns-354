@@ -164,20 +164,33 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="BehaviorPatterns\ChainOfResponsibility\Descriptioin.txt" />
+    <Content Include="BehaviorPatterns\ChainOfResponsibility\UML.JPG" />
     <Content Include="BehaviorPatterns\Command\Description.txt" />
+    <Content Include="BehaviorPatterns\Command\UML.JPG" />
     <Content Include="BehaviorPatterns\Interpretator\Description.txt" />
+    <Content Include="BehaviorPatterns\Interpretator\UML.JPG" />
     <Content Include="BehaviorPatterns\Iterator\Description.txt" />
+    <Content Include="BehaviorPatterns\Iterator\UML.JPG" />
     <Content Include="BehaviorPatterns\Mediator\Description.txt" />
+    <Content Include="BehaviorPatterns\Mediator\UML.JPG" />
     <Content Include="BehaviorPatterns\Memento\Description.txt" />
     <Content Include="BehaviorPatterns\Memento\UML.jpg" />
     <Content Include="BehaviorPatterns\Observer\MSDN\Description.txt" />
+    <Content Include="BehaviorPatterns\Observer\UML.JPG" />
     <Content Include="BehaviorPatterns\State\Description.txt" />
+    <Content Include="BehaviorPatterns\State\UML.JPG" />
     <Content Include="BehaviorPatterns\Strategy\Description.txt" />
+    <Content Include="BehaviorPatterns\Strategy\UML.JPG" />
     <Content Include="BehaviorPatterns\TemplateMethod\Description.txt" />
+    <Content Include="BehaviorPatterns\TemplateMethod\UML.JPG" />
     <Content Include="CreationalPatterns\AbstractFactory\Description.txt" />
+    <Content Include="CreationalPatterns\AbstractFactory\UML.JPG" />
     <Content Include="CreationalPatterns\Builder\Description.txt" />
+    <Content Include="CreationalPatterns\Builder\UML.JPG" />
     <Content Include="CreationalPatterns\FactoryMethod\Description.txt" />
+    <Content Include="CreationalPatterns\FactoryMethod\UML.JPG" />
     <Content Include="CreationalPatterns\Prototype\Description.txt" />
+    <Content Include="CreationalPatterns\Prototype\UML.JPG" />
     <Content Include="CreationalPatterns\Singleton\Description.txt" />
     <Content Include="Readme.txt" />
     <Content Include="OtherPatterns\Specification\Description.txt" />
