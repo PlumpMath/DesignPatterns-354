@@ -78,6 +78,10 @@
     <Compile Include="BehaviorPatterns\Mediator\MediatorTest.cs" />
     <Compile Include="BehaviorPatterns\Mediator\Mediator\AbstractMediator.cs" />
     <Compile Include="BehaviorPatterns\Mediator\Mediator\Manager.cs" />
+    <Compile Include="BehaviorPatterns\Memento\Caretaker\GameHistory.cs" />
+    <Compile Include="BehaviorPatterns\Memento\MementoTest.cs" />
+    <Compile Include="BehaviorPatterns\Memento\Memento\HeroMemento.cs" />
+    <Compile Include="BehaviorPatterns\Memento\Originator\Hero.cs" />
     <Compile Include="BehaviorPatterns\Observer\MSDN\Observable\SomeObservable.cs" />
     <Compile Include="BehaviorPatterns\Observer\MSDN\Observable\Unsubscriber.cs" />
     <Compile Include="BehaviorPatterns\Observer\MSDN\ObservertMsdnTest.cs" />
@@ -164,6 +168,8 @@
     <Content Include="BehaviorPatterns\Interpretator\Description.txt" />
     <Content Include="BehaviorPatterns\Iterator\Description.txt" />
     <Content Include="BehaviorPatterns\Mediator\Description.txt" />
+    <Content Include="BehaviorPatterns\Memento\Description.txt" />
+    <Content Include="BehaviorPatterns\Memento\UML.jpg" />
     <Content Include="BehaviorPatterns\Observer\MSDN\Description.txt" />
     <Content Include="BehaviorPatterns\State\Description.txt" />
     <Content Include="BehaviorPatterns\Strategy\Description.txt" />

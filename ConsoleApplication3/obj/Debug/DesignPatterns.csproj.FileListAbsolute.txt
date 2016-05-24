@@ -16,3 +16,9 @@ E:\Projects\GitHub\DesignPatterns\ConsoleApplication3\obj\Debug\DesignPatterns.p
 E:\Projects\GitHub\DesignPatterns\ConsoleApplication3\bin\Debug\DesignPatterns.exe
 E:\Projects\GitHub\DesignPatterns\ConsoleApplication3\bin\Debug\DesignPatterns.pdb
 E:\Projects\GitHub\DesignPatterns\ConsoleApplication3\obj\Debug\DesignPatterns.csprojResolveAssemblyReference.cache
+d:\StudyProjects\GIT\DesignPatterns\ConsoleApplication3\bin\Debug\DesignPatterns.exe.config
+d:\StudyProjects\GIT\DesignPatterns\ConsoleApplication3\obj\Debug\DesignPatterns.exe
+d:\StudyProjects\GIT\DesignPatterns\ConsoleApplication3\obj\Debug\DesignPatterns.pdb
+d:\StudyProjects\GIT\DesignPatterns\ConsoleApplication3\bin\Debug\DesignPatterns.exe
+d:\StudyProjects\GIT\DesignPatterns\ConsoleApplication3\bin\Debug\DesignPatterns.pdb
+d:\StudyProjects\GIT\DesignPatterns\ConsoleApplication3\obj\Debug\DesignPatterns.csprojResolveAssemblyReference.cache
