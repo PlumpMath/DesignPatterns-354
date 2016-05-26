@@ -109,6 +109,14 @@
     <Compile Include="BehaviorPatterns\TemplateMethod\Study.cs" />
     <Compile Include="BehaviorPatterns\TemplateMethod\TemplateMethodTest.cs" />
     <Compile Include="BehaviorPatterns\TemplateMethod\University.cs" />
+    <Compile Include="BehaviorPatterns\Visitor\Element\Company.cs" />
+    <Compile Include="BehaviorPatterns\Visitor\Element\IAccount.cs" />
+    <Compile Include="BehaviorPatterns\Visitor\Element\Person.cs" />
+    <Compile Include="BehaviorPatterns\Visitor\ObjectStructure\Bank.cs" />
+    <Compile Include="BehaviorPatterns\Visitor\Visitors\HtmlVisitor.cs" />
+    <Compile Include="BehaviorPatterns\Visitor\Visitors\IVisitor.cs" />
+    <Compile Include="BehaviorPatterns\Visitor\Visitors\XmlVisitor.cs" />
+    <Compile Include="BehaviorPatterns\Visitor\VisitorTest.cs" />
     <Compile Include="CreationalPatterns\AbstractFactory\AbstractFactoryTest.cs" />
     <Compile Include="CreationalPatterns\AbstractFactory\Client\Hero.cs" />
     <Compile Include="CreationalPatterns\AbstractFactory\Factory\ElfFactory.cs" />
@@ -183,6 +191,8 @@
     <Content Include="BehaviorPatterns\Strategy\UML.JPG" />
     <Content Include="BehaviorPatterns\TemplateMethod\Description.txt" />
     <Content Include="BehaviorPatterns\TemplateMethod\UML.JPG" />
+    <Content Include="BehaviorPatterns\Visitor\Description.txt" />
+    <Content Include="BehaviorPatterns\Visitor\UML.jpg" />
     <Content Include="CreationalPatterns\AbstractFactory\Description.txt" />
     <Content Include="CreationalPatterns\AbstractFactory\UML.JPG" />
     <Content Include="CreationalPatterns\Builder\Description.txt" />

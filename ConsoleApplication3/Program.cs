@@ -11,6 +11,7 @@ using DesignPatterns.BehaviorPatterns.Observer.MSDN;
 using DesignPatterns.BehaviorPatterns.State;
 using DesignPatterns.BehaviorPatterns.Strategy;
 using DesignPatterns.BehaviorPatterns.TemplateMethod;
+using DesignPatterns.BehaviorPatterns.Visitor;
 using DesignPatterns.CreationalPatterns.AbstractFactory;
 using DesignPatterns.CreationalPatterns.Builder;
 using DesignPatterns.CreationalPatterns.FactoryMethod;
@@ -42,6 +43,7 @@ namespace DesignPatterns
             PatternDecorator.RunTest(new InterpretatorTest());
             PatternDecorator.RunTest(new MediatorTest());
             PatternDecorator.RunTest(new MementoTest());
+            PatternDecorator.RunTest(new VisitorTest());
 
             Console.Read();
         }
