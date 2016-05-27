@@ -166,6 +166,13 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PatternTest.cs" />
+    <Compile Include="StructuralPattern\Decorator\CustomDecorator\CheesePizza.cs" />
+    <Compile Include="StructuralPattern\Decorator\CustomDecorator\PizzaDecorator.cs" />
+    <Compile Include="StructuralPattern\Decorator\CustomDecorator\TomatoPizza.cs" />
+    <Compile Include="StructuralPattern\Decorator\DecoratorTest.cs" />
+    <Compile Include="StructuralPattern\Decorator\Object\BulgarianPizza.cs" />
+    <Compile Include="StructuralPattern\Decorator\Object\ItalianPizza.cs" />
+    <Compile Include="StructuralPattern\Decorator\Object\Pizza.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -206,6 +213,8 @@
     <Content Include="CreationalPatterns\Singleton\Description.txt" />
     <Content Include="Readme.txt" />
     <Content Include="OtherPatterns\Specification\Description.txt" />
+    <Content Include="StructuralPattern\Decorator\Description.txt" />
+    <Content Include="StructuralPattern\Decorator\UML.jpg" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -19,3 +19,7 @@ Pros:
 Cons:
 
 NO
+
+
+Useful article:
+http://martinfowler.com/apsupp/spec.pdf
