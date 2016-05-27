@@ -183,9 +183,11 @@
     <Content Include="BehaviorPatterns\Mediator\UML.JPG" />
     <Content Include="BehaviorPatterns\Memento\Description.txt" />
     <Content Include="BehaviorPatterns\Memento\UML.jpg" />
+    <Content Include="BehaviorPatterns\Observer\Description.txt" />
     <Content Include="BehaviorPatterns\Observer\MSDN\Description.txt" />
     <Content Include="BehaviorPatterns\Observer\UML.JPG" />
     <Content Include="BehaviorPatterns\State\Description.txt" />
+    <Content Include="BehaviorPatterns\State\StateStrategyDiff.txt" />
     <Content Include="BehaviorPatterns\State\UML.JPG" />
     <Content Include="BehaviorPatterns\Strategy\Description.txt" />
     <Content Include="BehaviorPatterns\Strategy\UML.JPG" />
