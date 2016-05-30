@@ -18,6 +18,7 @@ using DesignPatterns.CreationalPatterns.FactoryMethod;
 using DesignPatterns.CreationalPatterns.Prototype;
 using DesignPatterns.CreationalPatterns.Singleton;
 using DesignPatterns.OtherPatterns.Specification.Test;
+using DesignPatterns.StructuralPattern.Adapter;
 using DesignPatterns.StructuralPattern.Decorator;
 
 namespace DesignPatterns
@@ -46,6 +47,7 @@ namespace DesignPatterns
             PatternDecorator.RunTest(new MementoTest());
             PatternDecorator.RunTest(new VisitorTest());
             PatternDecorator.RunTest(new DecoratorTest());
+            PatternDecorator.RunTest(new AdapterTest());
 
             Console.Read();
         }

@@ -166,6 +166,13 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PatternTest.cs" />
+    <Compile Include="StructuralPattern\Adapter\Adaptee\Camel.cs" />
+    <Compile Include="StructuralPattern\Adapter\Adaptee\IAnimal.cs" />
+    <Compile Include="StructuralPattern\Adapter\AdapterTest.cs" />
+    <Compile Include="StructuralPattern\Adapter\CustomAdapter\AnimalTransportAdapter.cs" />
+    <Compile Include="StructuralPattern\Adapter\Driver.cs" />
+    <Compile Include="StructuralPattern\Adapter\Target\Car.cs" />
+    <Compile Include="StructuralPattern\Adapter\Target\ITransport.cs" />
     <Compile Include="StructuralPattern\Decorator\CustomDecorator\CheesePizza.cs" />
     <Compile Include="StructuralPattern\Decorator\CustomDecorator\PizzaDecorator.cs" />
     <Compile Include="StructuralPattern\Decorator\CustomDecorator\TomatoPizza.cs" />
@@ -213,6 +220,8 @@
     <Content Include="CreationalPatterns\Singleton\Description.txt" />
     <Content Include="Readme.txt" />
     <Content Include="OtherPatterns\Specification\Description.txt" />
+    <Content Include="StructuralPattern\Adapter\Description.txt" />
+    <Content Include="StructuralPattern\Adapter\UML.jpg" />
     <Content Include="StructuralPattern\Decorator\Description.txt" />
     <Content Include="StructuralPattern\Decorator\UML.jpg" />
   </ItemGroup>
