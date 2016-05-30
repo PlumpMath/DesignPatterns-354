@@ -20,6 +20,7 @@ using DesignPatterns.CreationalPatterns.Singleton;
 using DesignPatterns.OtherPatterns.Specification.Test;
 using DesignPatterns.StructuralPattern.Adapter;
 using DesignPatterns.StructuralPattern.Decorator;
+using DesignPatterns.StructuralPattern.Facade;
 
 namespace DesignPatterns
 {
@@ -48,6 +49,7 @@ namespace DesignPatterns
             PatternDecorator.RunTest(new VisitorTest());
             PatternDecorator.RunTest(new DecoratorTest());
             PatternDecorator.RunTest(new AdapterTest());
+            PatternDecorator.RunTest(new FacadeTest());
 
             Console.Read();
         }

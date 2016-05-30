@@ -180,6 +180,12 @@
     <Compile Include="StructuralPattern\Decorator\Object\BulgarianPizza.cs" />
     <Compile Include="StructuralPattern\Decorator\Object\ItalianPizza.cs" />
     <Compile Include="StructuralPattern\Decorator\Object\Pizza.cs" />
+    <Compile Include="StructuralPattern\Facade\Client\Programmer.cs" />
+    <Compile Include="StructuralPattern\Facade\CustomFacade\VisualStudioFacade.cs" />
+    <Compile Include="StructuralPattern\Facade\FacadeTest.cs" />
+    <Compile Include="StructuralPattern\Facade\SubSystem\Clr.cs" />
+    <Compile Include="StructuralPattern\Facade\SubSystem\Compiler.cs" />
+    <Compile Include="StructuralPattern\Facade\SubSystem\TestEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -224,6 +230,8 @@
     <Content Include="StructuralPattern\Adapter\UML.jpg" />
     <Content Include="StructuralPattern\Decorator\Description.txt" />
     <Content Include="StructuralPattern\Decorator\UML.jpg" />
+    <Content Include="StructuralPattern\Facade\Description.txt" />
+    <Content Include="StructuralPattern\Facade\UML.jpg" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
