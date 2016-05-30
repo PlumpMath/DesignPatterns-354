@@ -173,6 +173,10 @@
     <Compile Include="StructuralPattern\Adapter\Driver.cs" />
     <Compile Include="StructuralPattern\Adapter\Target\Car.cs" />
     <Compile Include="StructuralPattern\Adapter\Target\ITransport.cs" />
+    <Compile Include="StructuralPattern\Composite\CompositeTest.cs" />
+    <Compile Include="StructuralPattern\Composite\CustomComponent\Component.cs" />
+    <Compile Include="StructuralPattern\Composite\CustomComponent\Directory.cs" />
+    <Compile Include="StructuralPattern\Composite\CustomComponent\File.cs" />
     <Compile Include="StructuralPattern\Decorator\CustomDecorator\CheesePizza.cs" />
     <Compile Include="StructuralPattern\Decorator\CustomDecorator\PizzaDecorator.cs" />
     <Compile Include="StructuralPattern\Decorator\CustomDecorator\TomatoPizza.cs" />
@@ -228,6 +232,8 @@
     <Content Include="OtherPatterns\Specification\Description.txt" />
     <Content Include="StructuralPattern\Adapter\Description.txt" />
     <Content Include="StructuralPattern\Adapter\UML.jpg" />
+    <Content Include="StructuralPattern\Composite\Description.txt" />
+    <Content Include="StructuralPattern\Composite\UML.jpg" />
     <Content Include="StructuralPattern\Decorator\Description.txt" />
     <Content Include="StructuralPattern\Decorator\UML.jpg" />
     <Content Include="StructuralPattern\Facade\Description.txt" />

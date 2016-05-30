@@ -19,6 +19,7 @@ using DesignPatterns.CreationalPatterns.Prototype;
 using DesignPatterns.CreationalPatterns.Singleton;
 using DesignPatterns.OtherPatterns.Specification.Test;
 using DesignPatterns.StructuralPattern.Adapter;
+using DesignPatterns.StructuralPattern.Composite;
 using DesignPatterns.StructuralPattern.Decorator;
 using DesignPatterns.StructuralPattern.Facade;
 
@@ -50,6 +51,7 @@ namespace DesignPatterns
             PatternDecorator.RunTest(new DecoratorTest());
             PatternDecorator.RunTest(new AdapterTest());
             PatternDecorator.RunTest(new FacadeTest());
+            PatternDecorator.RunTest(new CompositeTest());
 
             Console.Read();
         }
