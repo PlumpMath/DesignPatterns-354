@@ -173,6 +173,15 @@
     <Compile Include="StructuralPattern\Adapter\Driver.cs" />
     <Compile Include="StructuralPattern\Adapter\Target\Car.cs" />
     <Compile Include="StructuralPattern\Adapter\Target\ITransport.cs" />
+    <Compile Include="StructuralPattern\Bridge\Abstraction\SensorDevice.cs" />
+    <Compile Include="StructuralPattern\Bridge\Abstraction\SpeedSensor.cs" />
+    <Compile Include="StructuralPattern\Bridge\Abstraction\WeightSensor.cs" />
+    <Compile Include="StructuralPattern\Bridge\BridgeInterface\ISensorInterface.cs" />
+    <Compile Include="StructuralPattern\Bridge\BridgeInterface\SpeedSensorImpl.cs" />
+    <Compile Include="StructuralPattern\Bridge\BridgeInterface\SpeedSensorImplY.cs" />
+    <Compile Include="StructuralPattern\Bridge\BridgeInterface\WeightSensorImpl.cs" />
+    <Compile Include="StructuralPattern\Bridge\BridgeInterface\WeightSensorImplY.cs" />
+    <Compile Include="StructuralPattern\Bridge\BridgeTest.cs" />
     <Compile Include="StructuralPattern\Composite\CompositeTest.cs" />
     <Compile Include="StructuralPattern\Composite\CustomComponent\Component.cs" />
     <Compile Include="StructuralPattern\Composite\CustomComponent\Directory.cs" />
@@ -237,6 +246,8 @@
     <Content Include="OtherPatterns\Specification\Description.txt" />
     <Content Include="StructuralPattern\Adapter\Description.txt" />
     <Content Include="StructuralPattern\Adapter\UML.jpg" />
+    <Content Include="StructuralPattern\Bridge\Description.txt" />
+    <Content Include="StructuralPattern\Bridge\UML.JPG" />
     <Content Include="StructuralPattern\Composite\Description.txt" />
     <Content Include="StructuralPattern\Composite\UML.jpg" />
     <Content Include="StructuralPattern\Decorator\Description.txt" />

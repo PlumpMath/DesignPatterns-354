@@ -19,6 +19,7 @@ using DesignPatterns.CreationalPatterns.Prototype;
 using DesignPatterns.CreationalPatterns.Singleton;
 using DesignPatterns.OtherPatterns.Specification.Test;
 using DesignPatterns.StructuralPattern.Adapter;
+using DesignPatterns.StructuralPattern.Bridge;
 using DesignPatterns.StructuralPattern.Composite;
 using DesignPatterns.StructuralPattern.Decorator;
 using DesignPatterns.StructuralPattern.Facade;
@@ -36,6 +37,7 @@ namespace DesignPatterns
             PatternDecorator.RunTest(new SpecificationTest());
             PatternDecorator.RunTest(new PrototypeTest());
             PatternDecorator.RunTest(new BuilderTest());
+
             PatternDecorator.RunTest(new StrategyTest());
             PatternDecorator.RunTest(new ObserverTest());
             PatternDecorator.RunTest(new ObservertMsdnTest());
@@ -49,11 +51,13 @@ namespace DesignPatterns
             PatternDecorator.RunTest(new MediatorTest());
             PatternDecorator.RunTest(new MementoTest());
             PatternDecorator.RunTest(new VisitorTest());
+
             PatternDecorator.RunTest(new DecoratorTest());
             PatternDecorator.RunTest(new AdapterTest());
             PatternDecorator.RunTest(new FacadeTest());
             PatternDecorator.RunTest(new CompositeTest());
             PatternDecorator.RunTest(new ProxyTest());
+            PatternDecorator.RunTest(new BridgeTest());
 
             Console.Read();
         }
