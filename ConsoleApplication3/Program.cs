@@ -22,6 +22,7 @@ using DesignPatterns.StructuralPattern.Adapter;
 using DesignPatterns.StructuralPattern.Composite;
 using DesignPatterns.StructuralPattern.Decorator;
 using DesignPatterns.StructuralPattern.Facade;
+using DesignPatterns.StructuralPattern.Proxy;
 
 namespace DesignPatterns
 {
@@ -52,6 +53,7 @@ namespace DesignPatterns
             PatternDecorator.RunTest(new AdapterTest());
             PatternDecorator.RunTest(new FacadeTest());
             PatternDecorator.RunTest(new CompositeTest());
+            PatternDecorator.RunTest(new ProxyTest());
 
             Console.Read();
         }
