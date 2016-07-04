@@ -199,6 +199,11 @@
     <Compile Include="StructuralPattern\Facade\SubSystem\Clr.cs" />
     <Compile Include="StructuralPattern\Facade\SubSystem\Compiler.cs" />
     <Compile Include="StructuralPattern\Facade\SubSystem\TestEditor.cs" />
+    <Compile Include="StructuralPattern\Flyweight\FlyweightAbstract\BrickHouse.cs" />
+    <Compile Include="StructuralPattern\Flyweight\FlyweightAbstract\House.cs" />
+    <Compile Include="StructuralPattern\Flyweight\FlyweightAbstract\HouseFactory.cs" />
+    <Compile Include="StructuralPattern\Flyweight\FlyweightAbstract\PanelHouse.cs" />
+    <Compile Include="StructuralPattern\Flyweight\FlyweightTest.cs" />
     <Compile Include="StructuralPattern\Proxy\BookProxy\BookStoreProxy.cs" />
     <Compile Include="StructuralPattern\Proxy\DbContext\BookStore.cs" />
     <Compile Include="StructuralPattern\Proxy\DbContext\IBook.cs" />
@@ -254,6 +259,8 @@
     <Content Include="StructuralPattern\Decorator\UML.jpg" />
     <Content Include="StructuralPattern\Facade\Description.txt" />
     <Content Include="StructuralPattern\Facade\UML.jpg" />
+    <Content Include="StructuralPattern\Flyweight\Description.txt" />
+    <Content Include="StructuralPattern\Flyweight\UML.jpg" />
     <Content Include="StructuralPattern\Proxy\Description.txt" />
     <Content Include="StructuralPattern\Proxy\UML.JPG" />
   </ItemGroup>
